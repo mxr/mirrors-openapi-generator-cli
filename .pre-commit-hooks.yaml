@@ -1,0 +1,11 @@
+-   id: openapi-generator-cli
+    name: openapi-generator-cli[jdk4py]
+    description: ''
+    entry: openapi-generator-cli
+    language: python
+    'files': (^|/)(openapi|.*[.](json|ya?ml))$
+    args: []
+    pass_filenames: false
+    require_serial: false
+    additional_dependencies: []
+    minimum_pre_commit_version: '0'
