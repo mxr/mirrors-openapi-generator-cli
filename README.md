@@ -16,7 +16,7 @@ Add this to your `.pre-commit-config.yaml`:
     rev: ''  # Use the sha / tag you want to point at
     hooks:
     -   id: openapi-generator-cli
-        # specify validate, generate, etc. each command rquires another 'hooks' block
+        # specify validate, generate, etc. each command requires another 'hooks' block
         args: []
         # default shown here; override based on your project setup
         files: '(^|/)(openapi|.*[.](json|ya?ml))$'
