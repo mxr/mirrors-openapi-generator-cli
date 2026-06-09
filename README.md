@@ -5,7 +5,7 @@ Mirror of openapi-generator-cli for pre-commit. Created with [pre-commit-mirror-
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For openapi-generator-cli: see https://pypi.org/project/openapi-generator-cli/
+For openapi-generator-cli: see https://github.com/OpenAPITools/openapi-generator-pip
 
 ### Using openapi-generator-cli with pre-commit
 
