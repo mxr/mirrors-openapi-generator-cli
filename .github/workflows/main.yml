@@ -32,7 +32,7 @@ jobs:
           --files-regex '(^|/)(openapi|.*[.](json|ya?ml))$' \
           --no-pass-filenames
     - run: |
-        git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY
+        git remote set-url origin "https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY"
         git push origin HEAD:refs/heads/main --tags
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
