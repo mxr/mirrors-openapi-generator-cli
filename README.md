@@ -1,7 +1,7 @@
-openapi-generator-cli mirror
-============================
+# openapi-generator-cli mirror
 
-Mirror of openapi-generator-cli for pre-commit. Created with [pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker).
+Mirror of openapi-generator-cli for pre-commit. Created with
+[pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker).
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
