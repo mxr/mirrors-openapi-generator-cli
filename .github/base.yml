@@ -1,0 +1,13 @@
+stack: [mirror]
+opt:
+  mirror:
+    preCommitMirrorMaker:
+      command: |
+        pre-commit-mirror . \
+          --language python \
+          --package-name 'openapi-generator-cli[jdk4py]' \
+          --id openapi-generator-cli \
+          --entry openapi-generator-cli \
+          --files-regex '(^|/)(openapi|.*[.](json|ya?ml))$' \
+          --no-pass-filenames
+      version: 3ba0917481261fbcac7ab75ca02c23afc163f4b7
