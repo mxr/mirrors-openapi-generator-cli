@@ -1,7 +1,7 @@
 stack: [mirror]
 opt:
   mirror:
-    preCommitMirrorMaker:
+    pre-commit-mirror-maker:
       command: |
         pre-commit-mirror . \
           --language python \
