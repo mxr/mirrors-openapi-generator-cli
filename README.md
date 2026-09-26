@@ -1,5 +1,4 @@
-> [!NOTE]
-> This relies on https://github.com/pre-commit/pre-commit-mirror-maker/pull/265 which is not supported.
+> [!NOTE] This relies on https://github.com/pre-commit/pre-commit-mirror-maker/pull/265 which is not supported.
 
 # openapi-generator-cli mirror
 
